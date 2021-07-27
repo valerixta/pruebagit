@@ -1,0 +1,208 @@
+@media only screen and (max-width: 480px) {
+    body {
+      display: grid;
+      grid-column: repeat(4, 1fr);
+      margin: auto;
+      width: 90%;
+      overflow-x: hidden; }
+    }
+  
+
+    /*Menu*/
+.logo {
+    height: 100%;
+    width: 150px;
+    display: inline-block; 
+}
+
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif !important;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-right: 100px; }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px; }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    text-align: center; 
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center; 
+    font-size: 30px;
+    color:white;
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center; 
+    font-size: 14px !important;
+    color: white;
+    font-weight: 600;
+}
+
+h5{ 
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center; 
+    font-size: 14px! important;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+.background {
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white; }
+  
+  
+  .aAnimation {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+  
+  .aAnimation:hover, a:focus {
+    background-size: 100% 2px; }
+  
+
+ /* Last releases
+====================================
+*/
+
+.container_releases {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 7px;
+    justify-content: center;
+}
+
+.subcontainer_release {
+  border: none;
+  color: white;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.subcontainer_release:hover {opacity: 0.8}
+
+.release { 
+    margin: 5px;
+}
+
+.button-music {
+    font-family: 'Work Sans', sans-serif;    
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:300;
+    font-size:18px;
+    color:#ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#9b122c;
+    justify-content: center;
+    }
+
+    /* Dates
+====================================
+*/
+
+ 
+  .dates {
+      font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+  
+  .container_dates {
+    display: flex;
+    flex-flow: row-nowrap;
+    padding: 10px;
+      flex-wrap: wrap; 
+      padding: 7px;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+  
+  }
+  
+  .izquierda {
+    float: left;
+    padding: 10px;
+    width: 550px;
+    margin: 40px;
+  }
+  
+  .derecha {
+    padding: 10px;
+    width: 550px;
+    margin: 40px;
+  }
+  
+  
+  .hijo {
+    width: 50px;
+    height: 50px;
+    background-color: #9b122c;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Ubuntu', sans serif;
+    font-size: 38px;
+    color: white!important;
+  }
+  
+  .hijo2 {
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Ubuntu', sans serif;
+    font-size: 16px;
+    color: white!important;
+  }
+  
+
+
+  /* BIO
+====================================
+*/
+
+  .article {
+  margin-bottom: 54px; }
+  .article .imgHipno {
+    float: right;
+    width: 550px;
+    margin: 10px 40px 0 40px; }
+  .article .Parrafo {
+    text-indent: 20px;
+    margin-bottom: 6px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 19.5px;
+    word-spacing: 7px;
+    line-height: 35px; }
+
+    header .tituloSub {
+        margin-left: 30px;
+        font-size: 30px;
+       }
+      header .tituloIndex{
+        margin-left: 25px;
+        font-size: 50px;
+      }
